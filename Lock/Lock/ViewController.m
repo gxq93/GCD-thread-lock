@@ -19,9 +19,9 @@
 }
 @end
 
-static const NSString *urlStr = @"http://cdn.nshipster.com/images/the-nshipster-fake-book-cover@2x.png";
-static const NSInteger imageCount = 15;
-static const NSInteger limitCount = 7;
+static NSString * const urlStr = @"http://cdn.nshipster.com/images/the-nshipster-fake-book-cover@2x.png";
+static NSInteger const imageCount = 15;
+static NSInteger const limitCount = 7;
 #define height [UIScreen mainScreen].bounds.size.height/5
 #define width [UIScreen mainScreen].bounds.size.width/3
 
